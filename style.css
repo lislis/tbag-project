@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Ostrich Sans Rounded';
+  src: url('assets/ostrich-sans-master/webfonts/ostrich-sans-rounded.eot');
+  src: local('☺'),
+       url('assets/ostrich-sans-master/webfonts/ostrich-sans-rounded.woff') format('woff'),
+       url('assets/ostrich-sans-master/webfonts/ostrich-sans-rounded.ttf') format('truetype'),
+       url('assets/ostrich-sans-master/webfonts/ostrich-sans-rounded.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ostrich Sans Rounded', sans-serif;
+}
+canvas {
+  display: block;
+}
+
+#p5_loading {
+  font-size: 10vw;
+  text-align: center;
+  transform: translateY(40vw);
+}
